@@ -132,7 +132,7 @@ export const DATA = {
       links: [
         {
           type: "IOS",
-          href: "https://play.google.com/store/apps/details?id=com.tanara&pcampaignid=web_share",
+          href: "https://apps.apple.com/ae/app/tanara/id6504285576",
           icon: <Icons.ios className="size-1" />,
         },{
           type: "Android",
@@ -145,6 +145,42 @@ export const DATA = {
         }
       ],
       image: "https://lh3.googleusercontent.com/ikirLBPquZc54lBD_Oz12yN14VlVS09LBoGvO_ZJ7RQv0ksn2ZtIUEwefVwvRvQ4Xw0",
+      video:
+        "",
+    },
+    {
+      title: "Tellygo",
+      href: "",
+      dates: "",
+      active: true,
+      description:
+        "TellyGo is interactive OTT Platform haveing Live channels and VOD",
+      technologies: [
+        "React Native",
+        "Typescript",
+        "Firebase",
+        "Zustand",
+        "HuaweiCloud",
+        "Core UI",
+        "CloudFlare",
+        "Firebase Auth"
+      ],
+      links: [
+        {
+          type: "IOS",
+          href: "https://apps.apple.com/ae/app/tellygo/id6469494396",
+          icon: <Icons.ios className="size-1" />,
+        },{
+          type: "Android",
+          href: "https://play.google.com/store/apps/details?id=com.tellygo&pcampaignid=web_share",
+          icon: <Icons.android className="size-1" />,
+        },{
+          type: "Website",
+          href: "https://tanara-qai-web.firebaseapp.com/#/",
+          icon: <Icons.globe className="size-6" />,
+        }
+      ],
+      image: "https://lh3.googleusercontent.com/Oiz0jDTzkeGm_-9V5Z74dZP_pvWEFYU3k2Y0vY2JZ5gzDSrGU2bgazBzJ64g2-3BNA",
       video:
         "",
     },
