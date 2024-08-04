@@ -15,9 +15,9 @@ export default async function BlogPage() {
   return (
     <section>
       <BlurFade delay={BLUR_FADE_DELAY}>
-        <h1 className="font-medium text-2xl mb-8 tracking-tighter">React Native Push Notifications</h1>
+        <h1 className="font-medium text-2xl mb-8 tracking-tighter"></h1>
       </BlurFade>
-      {/* {posts
+      {posts
         .sort((a, b) => {
           if (
             new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)
@@ -34,13 +34,14 @@ export default async function BlogPage() {
             >
               <div className="w-full flex flex-col">
                 <p className="tracking-tight">{post.metadata.title}</p>
+                <p>{post.metadata.summary}</p>
                 <p className="h-6 text-xs text-muted-foreground">
                   {post.metadata.publishedAt}
                 </p>
               </div>
             </Link>
           </BlurFade>
-        ))} */}
+        ))}
     </section>
   );
 }

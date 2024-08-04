@@ -113,8 +113,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "Tanara App",
-      href: "",
+      title: "Tanara",
+      href: "https://tanara-qai-web.firebaseapp.com/#/",
       dates: "",
       active: true,
       description:
@@ -125,7 +125,6 @@ export const DATA = {
         "Firebase",
         "Zustand",
         "HuaweiCloud",
-        "Core UI",
         "CloudFlare",
         "Firebase Auth"
       ],
@@ -134,14 +133,10 @@ export const DATA = {
           type: "IOS",
           href: "https://apps.apple.com/ae/app/tanara/id6504285576",
           icon: <Icons.ios className="size-1" />,
-        },{
+        }, {
           type: "Android",
           href: "https://play.google.com/store/apps/details?id=com.tanara&pcampaignid=web_share",
           icon: <Icons.android className="size-1" />,
-        },{
-          type: "Website",
-          href: "https://tanara-qai-web.firebaseapp.com/#/",
-          icon: <Icons.globe className="size-6" />,
         }
       ],
       image: "https://lh3.googleusercontent.com/ikirLBPquZc54lBD_Oz12yN14VlVS09LBoGvO_ZJ7RQv0ksn2ZtIUEwefVwvRvQ4Xw0",
@@ -150,7 +145,7 @@ export const DATA = {
     },
     {
       title: "Tellygo",
-      href: "",
+      href: "https://tellygo.tv/#/",
       dates: "",
       active: true,
       description:
@@ -161,7 +156,6 @@ export const DATA = {
         "Firebase",
         "Zustand",
         "HuaweiCloud",
-        "Core UI",
         "CloudFlare",
         "Firebase Auth"
       ],
@@ -170,31 +164,57 @@ export const DATA = {
           type: "IOS",
           href: "https://apps.apple.com/ae/app/tellygo/id6469494396",
           icon: <Icons.ios className="size-1" />,
-        },{
+        }, {
           type: "Android",
           href: "https://play.google.com/store/apps/details?id=com.tellygo&pcampaignid=web_share",
           icon: <Icons.android className="size-1" />,
-        },{
-          type: "Website",
-          href: "https://tanara-qai-web.firebaseapp.com/#/",
-          icon: <Icons.globe className="size-6" />,
         }
       ],
       image: "https://lh3.googleusercontent.com/Oiz0jDTzkeGm_-9V5Z74dZP_pvWEFYU3k2Y0vY2JZ5gzDSrGU2bgazBzJ64g2-3BNA",
       video:
         "",
-    },
+    }, 
+    
+    // {
+    //   title: "Guessthesix",
+    //   href: "https://tanara-qai-web.firebaseapp.com/#/",
+    //   dates: "",
+    //   active: true,
+    //   description:
+    //     "Discover Tanara, Algeria’s ultimate interactive media platform. Experience the best of television and streaming with unique features",
+    //   technologies: [
+    //     "React Native Expo",
+    //     "Typescript",
+    //     "Firebase",
+    //     "Zustand",
+    //     "Firebase Social Auth"
+    //   ],
+    //   links: [
+    //     {
+    //       type: "IOS",
+    //       href: "https://apps.apple.com/ae/app/tanara/id6504285576",
+    //       icon: <Icons.ios className="size-1" />,
+    //     }, {
+    //       type: "Android",
+    //       href: "https://play.google.com/store/apps/details?id=com.tanara&pcampaignid=web_share",
+    //       icon: <Icons.android className="size-1" />,
+    //     }
+    //   ],
+    //   image: "https://lh3.googleusercontent.com/ikirLBPquZc54lBD_Oz12yN14VlVS09LBoGvO_ZJ7RQv0ksn2ZtIUEwefVwvRvQ4Xw0",
+    //   video:
+    //     "",
+    // },
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "",
+      dates: "",
+      location: "",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "",
       image:
-        "/steyp.png",
-      mlh: "/steyp.png",
+        "",
+      mlh: "",
       links: [],
     },
   ],
